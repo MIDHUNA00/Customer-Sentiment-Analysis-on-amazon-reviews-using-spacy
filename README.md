@@ -6,7 +6,7 @@ The project aims to derive feature wise insights of amazon products from their r
 2. spaCy
 3. Amazon review dataset in csv format
 4. Beautifulsoup library for scrapping
-##3 Dataset Description
+## Dataset Description
 Our training data set contains three columns:
     1.review_title
     2.review_text
