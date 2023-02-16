@@ -8,7 +8,7 @@ The project aims to derive feature wise insights of amazon products from their r
 4. Beautifulsoup library for scrapping
 5. Any other relevant packages
 ## Dataset Description
-Our training data set contains three columns:
+Our training data set is in csv format and contains three columns:
     1. review_title
     2. review_text
     3. star_rating
