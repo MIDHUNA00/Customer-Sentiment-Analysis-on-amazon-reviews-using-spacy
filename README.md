@@ -19,7 +19,7 @@ Our training data set is in csv format and contains three columns:
 3. Exploratory Analysis
 ## Results
 ## Output
-The output is a streamlit app which will be displaying an input option for the product URL and the number of review pages too be scrapped, where we could select an appropriate product feature which will output the associated sentiment polarity.
+The output is a streamlit app which will be displaying an input option for the product URL and the number of review pages too be scrapped, where we could select an appropriate product feature to output the associated sentiment polarity.
 
    
     
