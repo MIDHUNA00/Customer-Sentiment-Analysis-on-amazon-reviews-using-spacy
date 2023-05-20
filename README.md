@@ -5,7 +5,7 @@ The project aims to derive feature wise insights of amazon products from their r
 1. python
 2. spaCy
 3. Amazon review dataset in csv format
-4. Beautifulsoup library for scrapping
+4. Selenium
 5. Any other relevant packages
 ## Dataset Description
 Our training data set is in csv format and contains three columns:
@@ -19,7 +19,7 @@ Our training data set is in csv format and contains three columns:
 3. Exploratory Analysis
 ## Results
 ## Output
-The output will be displaying  product name with their relevant features and  corresponding sentiments so that the user can have a featurewise understanding of the product. The overall and featurewise polarity and subjectitvity will also be displayed with appropriate visualizations for better understanding.
+The output is a streamlit app which will be displaying an input option for the product URL and the number of review pages too be scrapped, where we could select an appropriate product feature which will output the associated sentiment polarity.
 
    
     
