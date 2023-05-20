@@ -90,7 +90,7 @@ def analyze_sentiment(text):
 
 for aspect in aspects.values():
     aspect_df = df[df['aspect'] == aspect]
-    aspect_df['sentiment'] = aspect_df['review_text'].apply(analyze_sentiment)
+    aspect_df = aspect_df.assign(sentiment=aspect_df['review_text'].apply(analyze_sentiment))
     print(f"Aspect: {aspect}")
     print(f"Average Sentiment: {aspect_df['sentiment'].mean()}")
     
